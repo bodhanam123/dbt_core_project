@@ -1,4 +1,5 @@
 data_warehouse:
+  target: dev
   outputs:
     dev:
       dataset: dbt_commandline_central_dataset
@@ -11,6 +12,7 @@ data_warehouse:
       project: project-on-dbt-379106
       threads: 4
       type: bigquery
+
+data_warehouse_2:
   target: dev
-  ##testing 
 
