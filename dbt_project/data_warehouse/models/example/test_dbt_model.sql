@@ -3,4 +3,3 @@ select *
  --test for main_branch
  --second_test_for_main_branch
  --third test
- --fourth test
