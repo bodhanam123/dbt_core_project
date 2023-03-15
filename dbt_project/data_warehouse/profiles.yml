@@ -1,4 +1,5 @@
 data_warehouse:
+  target: dev
   outputs:
     dev:
       dataset: dbt_commandline_central_dataset
@@ -11,7 +12,23 @@ data_warehouse:
       project: project-on-dbt-379106
       threads: 4
       type: bigquery
+
+data_warehouse_2:
   target: dev
+  outputs:
+    dev:
+      dataset: dbt_commandline_2_central_dataset
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /home/nxtwave/Downloads/project-on-dbt-c209ed2de555.json
+      location: asia-south1
+      method: service-account
+      priority: interactive
+      project: project-on-dbt
+      threads: 4
+      type: bigquery
+
+
 
 
 data_warehouse_2:
