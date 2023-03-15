@@ -1,5 +1,6 @@
 select *
  from {{ source('backend_tables', 'nkb_jobs_userplacementdetails') }}
-
- --test for dev_branch
- --teste for dev_branch
+ --test for main_branch
+ --second_test_for_main_branch
+ --third test
+ --fourth test
