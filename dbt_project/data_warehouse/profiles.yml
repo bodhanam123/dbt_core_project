@@ -13,7 +13,5 @@ data_warehouse:
       threads: 4
       type: bigquery
 
-data_warehouse_2:
-  target: dev
-  ##test details
+
 
